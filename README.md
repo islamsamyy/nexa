@@ -1,17 +1,32 @@
 ﻿# NexaLytix Landing Page (`nexa`)
 
-A standalone single-page HTML5/CSS3 corporate landing page (`nexa.html`) for **NexaLytix** (*"Connecting Data, Inspiring Growth"*), engineered with a dark-mode gradient aesthetic and zero build dependencies.
+## Table of Contents
+- [Executive Summary & Business Utility](#executive-summary--business-utility)
+- [System Architecture & Layers](#system-architecture--layers)
+- [Getting Started](#getting-started)
+- [Business Value, ROI & Growth Opportunities](#business-value-roi--growth-opportunities)
 
 ---
 
-## 1. Executive Summary & Purpose
-`nexa` serves as a fast, portable web presence for presenting data analytics services and brand positioning.
+## Executive Summary & Business Utility
+`nexa` is a lightweight single-page HTML5/CSS3 marketing landing page (`nexa.html`) for **NexaLytix** (*"Connecting Data, Inspiring Growth"*), built with zero build tooling for instant deployment on any static host.
 
-## 2. Architecture & Layers
-- **Presentation (`nexa.html`)**: Single-file HTML5 + embedded CSS3 layout optimized for instant static hosting.
+---
 
-## 3. Getting Started
-Open `nexa.html` in any web browser or host via GitHub Pages / Vercel / Netlify.
+## System Architecture & Layers
+| Layer | Artifact | Responsibility |
+| :--- | :--- | :--- |
+| **Markup & Presentation** | `nexa.html` | Self-contained HTML5 + embedded CSS3 dark-mode layout |
 
-## 4. Business Value & Growth Opportunities
-- **Rapid Campaign Microsite**: Ideal for A/B testing paid ad traffic or linking directly to interactive n8n/React lead-capture tools (`lead-finder-nexus-tool`).
+---
+
+## Getting Started
+```bash
+git clone https://github.com/islamsamyy/nexa.git
+# Open nexa.html in any modern browser or serve via GitHub Pages / Vercel
+```
+
+---
+
+## Business Value, ROI & Growth Opportunities
+- **Rapid Brand Presence**: Provides an immediate, zero-maintenance web presence for a data analytics consultancy, ready to embed Calendly/webhook lead-capture forms.
